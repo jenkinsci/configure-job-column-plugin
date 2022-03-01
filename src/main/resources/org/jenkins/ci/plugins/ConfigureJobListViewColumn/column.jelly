@@ -23,12 +23,12 @@
 -->
 
 <?jelly escape-by-default="true"?>
-<j:jelly xmlns:j="jelly:core">
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout">
   <td>
     <j:if test="${job.hasPermission(job.CONFIGURE)}">
       <a href="job/${job.name}/configure" title="${%ConfigureJobColumn.Configure.Title}">
-        <img alt="${%ConfigureJobColumn.Configure.Title}"
-          src="${imagesURL}/${subIconSize}/setting.png"
+        <l:icon alt="${%ConfigureJobColumn.Configure.Title}"
+          class="icon-gear ${subIconSizeClass}"
           title="${%ConfigureJobColumn.Configure.Title}" />
       </a>
     </j:if>

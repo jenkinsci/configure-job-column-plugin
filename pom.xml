@@ -31,8 +31,8 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.447</version>
-    <relativePath>../pom.xml</relativePath>
+    <version>4.37</version>
+    <relativePath />
   </parent>
 
   <artifactId>configure-job-column-plugin</artifactId>
@@ -43,12 +43,12 @@
   <description>
     Provide a fast-path configure job link available for views.
   </description>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Configure+Job+Column+Plugin</url>
+  <url>https://plugins.jenkins.io/configure-job-column-plugin/</url>
 
   <licenses>
     <license>
       <name>The MIT license</name>
-      <url>https://github.com/jenkinsci/configure-job-column-plugin/raw/master/LICENSE.txt</url>
+      <url>https://opensource.org/licenses/MIT</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -81,11 +81,9 @@
     </pluginRepository>
   </pluginRepositories>
 
-  <distributionManagement>
-    <repository>
-      <id>java.net-m2-repository</id>
-      <url>http://maven.jenkins-ci.org/content/repositories/releases/</url>
-    </repository>
-  </distributionManagement>
+  <properties>
+    <jenkins.version>2.319.3</jenkins.version>
+    <java.level>8</java.level>
+  </properties>
 
 </project>

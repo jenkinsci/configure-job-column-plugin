@@ -22,10 +22,11 @@
   THE SOFTWARE.
 -->
 
+<?jelly escape-by-default='true'?>
 <div>
   <span>
     The
-    <a href="http://wiki.jenkins-ci.org/display/JENKINS/Configure+Job+Column+Plugin">Configure Job Column Plugin</a>
+    <a href="https://plugins.jenkins.io/configure-job-column-plugin/">Configure Job Column Plugin</a>
     provides a fast-path configure job link available for views.
   </span>
 </div>
