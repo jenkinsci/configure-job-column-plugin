@@ -59,7 +59,7 @@ public final class ConfigureJobListViewColumn extends ListViewColumn {
             ListViewColumnDescriptor {
         @Override
         public String getDisplayName() {
-            return Messages.configureJobColumn_DisplayName();
+            return Messages.configureJobColumn_displayName();
         }
 
         @Override
