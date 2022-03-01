@@ -36,7 +36,7 @@
   </parent>
 
   <artifactId>configure-job-column-plugin</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>${changelist}</version>
   <packaging>hpi</packaging>
 
   <name>Configure Job Column Plugin</name>
@@ -55,9 +55,9 @@
 
   <developers>
     <developer>
-      <id>jieryn</id>
-      <name>Jesse Farinacci</name>
-      <email>jieryn@gmail.com</email>
+      <id>NotMyFault</id>
+      <name>Alex</name>
+      <email>contact@notmyfault.dev</email>
     </developer>
   </developers>
 
@@ -65,6 +65,7 @@
     <connection>scm:git:git://github.com/jenkinsci/configure-job-column-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/configure-job-column-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/configure-job-column-plugin</url>
+    <tag>${scmTag}</tag>
   </scm>
 
   <repositories>
@@ -82,6 +83,7 @@
   </pluginRepositories>
 
   <properties>
+    <changelist>999999-SNAPSHOT</changelist>
     <jenkins.version>2.319.3</jenkins.version>
     <java.level>8</java.level>
   </properties>
