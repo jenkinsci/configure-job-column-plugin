@@ -84,7 +84,15 @@
 
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
-    <jenkins.version>2.319.3</jenkins.version>
+    <jenkins.version>2.346.1</jenkins.version>
   </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>ionicons-api</artifactId>
+      <version>24.va_745a_b_a_97fc3</version>
+    </dependency>
+  </dependencies>
 
 </project>
