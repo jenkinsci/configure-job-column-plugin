@@ -28,7 +28,7 @@
     <j:if test="${job.hasPermission(job.CONFIGURE)}">
       <a href="job/${job.name}/configure" title="${%ConfigureJobColumn.Configure.Title}">
         <l:icon alt="${%ConfigureJobColumn.Configure.Title}"
-          class="icon-gear ${subIconSizeClass}"
+          src="symbol-settings-outline plugin-ionicons-api" class="${subIconSizeClass}"
           title="${%ConfigureJobColumn.Configure.Title}" />
       </a>
     </j:if>
